@@ -22,7 +22,9 @@ import java.util.Scanner;
  */
 public class Main {
 	/*
-	 * This is the private method is the implementation 
+	 * This is the private method 
+	 * is the implementation 
+	 * that allows the implemntation
 	 * of the above import.
 	 */
 	private static Scanner scanner;
@@ -509,21 +511,38 @@ public class Main {
 			sleep();
 			sleep();
 			sleep();
-			System.out.println("Narrator: What is the final turn?");
+			System.out.println("Narrator: What is the last turn?");
 			sleep();
 			System.out.println("8-Bit: It ends there and there is a blood stain");
 			sleep();
-			System.out.println("Narrator: Look to your left!!!");
+			// This next part starts as a dark joke, but ends on the lighter side.
+			System.out.println("Narrator: Okay don't freak out but, look to your left!!!");
 			sleep();
-			System.out.println("Narrator: You look to the left and see a rather short skeleton \nwith an white hat embossed with an M \nand a pair of white overalls. \na read shirt and a pair of brwon shoes.");
+			System.out.println("8-Bit: What?");
 			sleep();
-			System.out.println("8-Bit: So that is what happeded to Mr. Jumpman. May he rest in piece...");
+			System.out.println("Narrator: You look to the left and see a rather short skeleton \nwith a white hat embossed with a red M \nand a pair of white overalls, \na A red shirt and a pair of brown shoes.");
 			sleep();
-			System.out.println("Narrator: Are you going to loot the skeleton he may have something important?");
+			System.out.println("8-Bit: So that is what caused Mr. Jumpman amnesia that day. May his play through rest in piece...");
 			sleep();
-			System.out.println("8-Bit: What!? No, he was too cool a guy to be looted after death.");
-			
-			
+			System.out.println("Narrator: Are you going to loot the body? It may have a quest item.");
+			sleep();
+			System.out.println("8-Bit: What!? No way, that life that he lost here was way to cool to loot.");
+			sleep();
+			System.out.println("Narrator: Well... here we go.");
+			sleep();
+			System.out.println("8-Bit: ...Really?");
+			sleep();
+			System.out.println("Narrator: What?");
+			sleeep();
+			System.out.println("8-Bit: Nevermind, it is on like an eighty's pixelated gorrila.");
+			sleep();
+			System.out.println("Narrator: And you said 'Really?' to me"?);
+			sleep();
+			System.out.println("8-Bit: Whatever lets just go; we are wasting time.");
+			// Huh, Huh, you get it?
+			sleep();
+			System.out.println("Narrator: Our hero makes his way into the dungeon ready to find /nThe Mystical Staff of Blasting.");
+			sleep();
 			
 			
 		}
@@ -532,8 +551,8 @@ public class Main {
 	 * This is the method for my sleep command
 	 * I have liberally applied throughout the
 	 * code, the 2500 has to do with how long
-	 * it should wait 2000 milliseconds or 2
-	 * seconds.
+	 * it will wait between lines of text
+	 * 2000 milliseconds or 2 seconds.
 	 */
 	public static void sleep() {
 		try {
